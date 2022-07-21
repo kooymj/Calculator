@@ -1,0 +1,95 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    height: 490px;
+    width: 300px;
+    position: relative;
+    border: 1px solid black;
+    padding: 2px;
+    padding-right: 4px;
+    background-color: rgb(130, 130, 190);
+}
+
+#results-container { 
+    margin: auto;
+    margin-right: 1px;
+    height: 100px;
+    width: 298px;
+    position: relative;
+    top: 1%;
+    left: 0.5%;
+    border: 1px solid black;
+    background-color: rgb(193, 193, 255);
+}
+
+#results-previewEq {
+    margin: 0;
+    text-align: right;
+    padding: 3px;
+}
+
+#results-text {
+    height: auto;
+    position: relative;
+    top: 0%;
+    text-align: right;
+    font-size: 48px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#btns {
+    height: 65px;
+    width: 302px;
+    position: relative;
+    top: 2.75%;
+    left: 0.75%;
+    padding-right: 0px;
+}
+
+.btn {
+    width: 120px;
+    height: 65px;
+    border: 1px solid black;
+}
+
+#btn-clear {
+    position:relative;
+    left: 0%;
+}
+
+#btn-delete {
+    position: relative;
+    left: 0%;
+    margin-left: 54px;
+}
+
+
+.grid {
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+    display: grid;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(130, 130, 190);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border: 1px solid black; */
+}
+  
+.cell {
+    margin: 2px;
+    height: 71px;
+    user-select: none;
+    border: 1px solid rgb(70, 70, 70);
+    border-color: rgb(63, 63, 63);
+    background-color: rgb(187, 255, 229);
+    text-align: center;
+    font-size: 36px;
+    padding: 5px;
+    padding-top: 10px;
+}

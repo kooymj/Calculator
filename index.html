@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div>
+        <h1>Calculator</h1>
+    </div>
+    <div class="container">
+        <div id="results-container">
+            <p id="results-previewEq"> </p>
+            <p id="results-text">94562</p>
+        </div>
+        <div id="btns">
+            <button id="btn-clear" class="btn">CLEAR</button>
+            <button id="btn-delete" class="btn">DELETE</button>
+        </div>
+        <div id="grid" class="grid" style="grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(4, 1fr);">
+            <button class="cell key-number">7</button>
+            <button class="cell key-number">8</button>
+            <button class="cell key-number">9</button>
+            <button class="cell key-operator">/</button>
+            <button class="cell key-number">4</button>
+            <button class="cell key-number">5</button>
+            <button class="cell key-number">6</button>
+            <button class="cell key-operator">x</button>
+            <button class="cell key-number">1</button>
+            <button class="cell key-number">2</button>
+            <button class="cell key-number">3</button>
+            <button class="cell key-operator">-</button>
+            <button class="cell key-period">.</button>
+            <button class="cell key-number">0</button>
+            <button class="cell key-equal">=</button>
+            <button class="cell key-operator">+</button>
+        </div>
+    </div>
+</body>
+</html>
